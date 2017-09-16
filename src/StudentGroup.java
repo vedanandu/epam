@@ -47,7 +47,13 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 
-	public void setStudent(Student student, int index) {
+	public void setStudent(Student student, int index)
+	{
+	    Date d = new Date("1997-05-09");
+		students[index].setId(143);
+		students[index].setFullName("veda");
+		students[index].setBirthDate(d);
+		students[index].setAvgMark(30.123456);
 		// Add your implementation here
 	}
 
@@ -56,11 +62,14 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 
 
+
+
 	}
 
 
 	public void addLast(Student student) {
 		// Add your implementation here
+
 	}
 
 
